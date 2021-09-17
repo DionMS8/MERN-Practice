@@ -14,6 +14,7 @@
 - VARIABLES AND FUNCTIONS CREATED WITHIN A MODULE ARE NOT 
 ADDED TO THE GLOBAL SCOPE SO THEY ARE PRIVATE TO THAT MODULE 
 AND NOT VISIBLE FROM THE OUTSIDE
+- ALWAYS USE ASYNCHRONOUS METHODS
 
 
 
@@ -33,6 +34,7 @@ CUSTOM MODULES:
 #-----[EXPORTING A MODULE]-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 module.exports.variable = "variableName"
+
 module.exports.function = "functionName"
 
 
