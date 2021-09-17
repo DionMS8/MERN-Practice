@@ -37,3 +37,7 @@ CUSTOM MODULES:
 const moduleName = require("moduleName")
 
 
+A class is created, it then uses the ‘extends EventEmitter’ to gain all the capabilities of the Event Emitter class
+
+
+
