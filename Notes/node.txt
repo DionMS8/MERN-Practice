@@ -1,0 +1,39 @@
+#-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------------------------
+
+- ASYNCHRONOUS ARCHITECTURE => This allows the system to handle multiple user requests at the same time
+- EVENT QUEUE => This is where completed requests are placed by the server and it is monitored by Node
+
+
+#-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
+
+- NODE WAS CREATED WHEN THE CHROME V8 ENGINE WAS EMBEDDED WITHIN A C++ PROGRAM 
+- NODE IS FAST, EFFICIENT AND HIGHLY SCALABLE
+- NODE IS EVENT DRIVEN
+- NODE DOES NOT HAVE THE DOCUMENT OR WINDOW OBJECTS 
+
+- VARIABLES AND FUNCTIONS CREATED WITHIN A MODULE ARE NOT 
+ADDED TO THE GLOBAL SCOPE SO THEY ARE PRIVATE TO THAT MODULE 
+AND NOT VISIBLE FROM THE OUTSIDE
+
+
+
+#-----[MODULES]--------------------------------------------------------------------------------------------------------------------------------------------
+
+CORE MODULES:
+- OS
+- FAST
+- EVENTS
+- HTTP
+
+CUSTOM MODULES:
+- FOLDERS
+- FILES
+
+
+#-----[LOADING PACKAGE LIBRARY WITH REQUIRE]-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- THE REQUIRE() FUNCTION IS USED TO LOAD A PACKAGE OR MODULE FROM AN EXTERNAL FOLDER 
+
+const moduleName = require("moduleName")
+
+
