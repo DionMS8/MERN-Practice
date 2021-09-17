@@ -12,7 +12,6 @@ console.log(`Free Memory: ${freeMemory}`)
 
 
 
-
 //-----[HTTP MODULE]-------------------------------------------------------------------
 
 // LOADING THE HTTP MODULE
@@ -35,8 +34,31 @@ console.log("Listening on Port 3000...");
 // Based on the method used, response is what the server is instructed to do while request is related to what the client asks the server to do.
 
 
-//--------------------------------------------------------------------------------------
+//-----[EXPORTING A MODULE]---------------------------------------------------------------------------------------------------------
 
+module.exports.variable = "variableName"
+
+module.exports.function = "functionName"
+
+
+
+//-----[MODULE WRAPPER FUNCTION]-------------------------------------------------------------------------------------------------------
+
+(exports, require, module, __filename, __dirname) => {
+    
+}
+
+
+//-----[BUILT-IN PATH MODULE]-----------------------------------------------------------------------------------------------------------
+
+const path = require("path");
+
+var pathObj = path.parse(__filename);
+
+console.log(pathObj)
+
+
+//========================================================================================================================================
 
 
 

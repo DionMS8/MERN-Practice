@@ -30,6 +30,12 @@ CUSTOM MODULES:
 - FILES
 
 
+#-----[EXPORTING A MODULE]-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+module.exports.variable = "variableName"
+module.exports.function = "functionName"
+
+
 #-----[LOADING PACKAGE LIBRARY WITH REQUIRE]-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - THE REQUIRE() FUNCTION IS USED TO LOAD A PACKAGE OR MODULE FROM AN EXTERNAL FOLDER 
