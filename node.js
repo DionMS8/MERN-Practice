@@ -76,6 +76,32 @@ fs.readdir("./", (err,files) => {
 
 //-----[EVENTS MODULE-------------------------------------------------------------------------------------------------------------------------------------
 
+// LOADING THE EVENTS MODULE AND STORING IT IN THE EVENTEMITTER CLASS
+const EventEmitter = require("events");
+
+// CREATING AN OBJECT/INSTANCE OF THE EVENTEMITTER CLASS
+const emitter = new EventEmitter();
+
+// REGISTERING A LISTENER
+emitter.on("messageLogged", (e) => {
+    console.log("Listener called...", e);
+});
+
+// NOTE: on AND addListener CAN BE USED INTERCHANGEABLY
+
+// RAISING AN EVENT WITH THE EMIT METHOD
+emitter.emit("messageLogged", {id: 8, url: "http://"});
+
+// NOTE: WHEN THE EVENT IS RAISED, IT RAISES ALL OF THE LISTENERS ASYNCHRONOUSLY
 
 
+class Logger extends EventEmitter
+
+// THE Logger CLASS WILL HAVE ALL OF THE FUNCTIONALITY THAT IS DEFINED IN EventEmitter
+
+// this.emit INSTEAD OF eventemitterObj.emit
+
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

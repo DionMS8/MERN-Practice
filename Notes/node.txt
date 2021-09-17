@@ -2,7 +2,7 @@
 
 - ASYNCHRONOUS ARCHITECTURE => This allows the system to handle multiple user requests at the same time
 - EVENT QUEUE => This is where completed requests are placed by the server and it is monitored by Node
-
+- EVENT EMITTER
 
 #-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,7 +15,9 @@
 ADDED TO THE GLOBAL SCOPE SO THEY ARE PRIVATE TO THAT MODULE 
 AND NOT VISIBLE FROM THE OUTSIDE
 - ALWAYS USE ASYNCHRONOUS METHODS
+- THE FIRST LETTER OF EACH WORD IN A CLASS TITLE IS CAPITAL (PASCAL NOTATION)
 
+!!! REVISE EVENT EMITTER AND EXTENDING IT !!!
 
 
 #-----[MODULES]--------------------------------------------------------------------------------------------------------------------------------------------
