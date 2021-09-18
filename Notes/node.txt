@@ -2,13 +2,14 @@
 
 - ASYNCHRONOUS ARCHITECTURE => This allows the system to handle multiple user requests at the same time
 - EVENT QUEUE => This is where completed requests are placed by the server and it is monitored by Node
-- EVENT EMITTER
+- EVENT EMITTER CLASS => THIS CLASS IS USED TO BIND EVENTS AND LISTENERS
 
 #-----[NOTES]-------------------------------------------------------------------------------------------------------------------------------------------
 
-- NODE WAS CREATED WHEN THE CHROME V8 ENGINE WAS EMBEDDED WITHIN A C++ PROGRAM 
+- NODE WAS CREATED WHEN THE JS V8 ENGINE WAS EMBEDDED WITHIN A C++ PROGRAM 
 - NODE IS FAST, EFFICIENT AND HIGHLY SCALABLE
 - NODE IS EVENT DRIVEN
+- NODE WORKS ON A SINGLE THREAD OF REQUESTS
 - NODE DOES NOT HAVE THE DOCUMENT OR WINDOW OBJECTS 
 
 - VARIABLES AND FUNCTIONS CREATED WITHIN A MODULE ARE NOT 
