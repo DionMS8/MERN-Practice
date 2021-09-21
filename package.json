@@ -1,0 +1,22 @@
+{
+  "name": "mern-practice",
+  "version": "1.0.0",
+  "description": "![image](https://user-images.githubusercontent.com/55777067/133691302-7a84f65d-7e7f-4f4b-9722-5da6f9398e53.png)",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DionMS8/MERN-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DionMS8/MERN-Practice/issues"
+  },
+  "homepage": "https://github.com/DionMS8/MERN-Practice#readme",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}

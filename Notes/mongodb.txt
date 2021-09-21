@@ -1,12 +1,49 @@
 #-----[COMMON TERMS]----------------------------------------------------------------------------------------------------------
 
+- ATLAS => THIS IS USED TO SET UP THE MONGODB CLOUD AND VIEW THE DATA IN THE DATABASE
+- CLUSTER =>
 
+
+
+#-----[SETTING UP THE DB WITH ATLAS]--------------------------------------------------------------------------------------------------------
+
+- CREATE NEW PROJECT
+- BUILD A SHARED, FREE DATABASE 
+- CHOOSE AWS AS THE CLOUD PROVIDER AND CHOOSE A REGION
+- GO TO => DATABASE => COLLECTIONS => ADD MY OWN DATA
 
 
 
 #-----[NOTES]-------------------------------------------------------------------------------------------------------------------
 
+- DATA COLLECTIONS ARE STORED IN CLUSTERS
 - db.userinfo.find({}) => DISPLAY THE USERINFO TABLE
 - show collections => SHOW DIFFERENT "TABLES" IN THE DATABASE
+
+
+
+#-----[CRUD OPERATIONS]--------------------------------------------------------------------------------------------------------
+
+
+
+#-----[INDEXING AND AGGREGATION PIPELINE]--------------------------------------------------------------------------------------------------------
+
+
+
+#-----[IMPORTING, EXPORTING, AND QUERYING DATA]--------------------------------------------------------------------------------------------------------
+
+
+
+#-----[CREATING AND MANIPULATING DOCUMENTS]--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#-----[SETTING UP THE DB]--------------------------------------------------------------------------------------------------------
+#-----[SETTING UP THE DB]--------------------------------------------------------------------------------------------------------
+
+
+
 
 
