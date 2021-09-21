@@ -124,9 +124,18 @@ npm install -g packageName
 const name = require("packageName")
 
 
-//-----------------------------------------------------------------------------------------------------------------------------
+#-----[GITIGNORE FILE]------------------------------------------------------------------------------------------------------------------------
 
+# CREATING A GITIGNORE FILE
+git add .gitignore
 
+# REMOVING THE NODE MODULE FOLDER FROM GIT TRACKING
+git rm -r --cached node_modules
 
+echo node_modules >> .gitignore
+
+git commit -m 'Remove node_modules'
+
+git push origin mastering
 
 
