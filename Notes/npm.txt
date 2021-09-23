@@ -88,7 +88,10 @@ npm install live-server --save-dev
     "dev": "live-server"
   },
 
-# PACKAGE-LOCK.JSON
+# BUILDING THE APP FOR PRODUCTION AND DEPLOYMENT
+npm run build
+
+
 
 
 //-----[SEMANTIC VERSIONING]--------------------------------------------------------------------------------------------------
@@ -126,16 +129,45 @@ const name = require("packageName")
 
 #-----[GITIGNORE FILE]------------------------------------------------------------------------------------------------------------------------
 
-# CREATING A GITIGNORE FILE
+- AS PACKAGES AND DEPENDENCIES ARE INSTALLED, THE NODE_MODULES FOLDER CAN BECOME INSANELY LARGE.
+- CONSEQUENTLY, IT IS HIGHLY RECOMMENDED THAT IT NOT BE PUSHED TO YOUR GITHUB REPOSITORY. 
+- TO DO THIS, THE .GITIGNORE FILE IS USED.
+
+# CREATING A .GITIGNORE FILE
 git add .gitignore
 
 # REMOVING THE NODE MODULE FOLDER FROM GIT TRACKING
 git rm -r --cached node_modules
 
+# ADDING THE NODE_MODULES FOLDER TO THE .GITIGNORE FILE
 echo node_modules >> .gitignore
 
+# COMMITTING CHANGES 
 git commit -m 'Remove node_modules'
 
-git push origin mastering
+# PUSHING COMMITS TO GITHUB
+git push origin master
+
+
+#-----[RECOMMENDED PACKAGES]------------------------------------------------------------------------------------------------------------------------------------------
+
+=> date-fns
+=> dotenv - THIS ALLOWS YOU TO STORE ALL ENVIRONMENT VARIABLES 
+SUCH AS DB INFORMATION IN A SINGLE FOLDER SO THAT IT CAN BE 
+CALLED TO ANY FILE WITH THE FOLLOWING THE LINE OF CODE:
+
+require("dotenv").config()
+
+NOTE: SINCE IT WILL ONLY BE USED IN DEVELOPMENT, IT CAN BE 
+INSTALLED AS A DEV DEPENDENCY.
+
+=> socket.io - HELPS FOR REAL-TIME COMMUNICATION BETWEEN USERS 
+=> uuid - HELPS TO CREATE UNIQUE IDENTIFIERS FOR COMPONENTS
+=> axios - CAN BE USED INSTEAD OF FETCH TO DEAL WITH REQUESTS AND RESPONSES BETWEEN THE USER AND SERVER
+=> classnames -
+
+
+
+
 
 
