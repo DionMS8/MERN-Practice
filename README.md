@@ -13,7 +13,20 @@
 This repo documents my journey to mastering the MERN stack. MERN Stack is a JavaScript Stack that is used for easier and faster deployment of full-stack web applications.
 
 
-## Topics Covered
-- ✔
+## MongoDB
+
+- Relationships ✔
+- Clusters, Collections, and Documents ✔
+- Setting up a DB with Atlas ✔
+- MongoDB Compass
+- CRUD Operations
+- Indexing and Aggregation Pipeline
+- Importing , Exporting, and Queryng Data
+- Creating and Manipulating Documents
 
 
+## Express.js
+
+## React.js
+
+## Node.js
