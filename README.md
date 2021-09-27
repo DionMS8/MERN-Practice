@@ -1,10 +1,13 @@
-# MERN-Practice
+# MERN Stack Practice
 
 ![image](https://user-images.githubusercontent.com/55777067/133691302-7a84f65d-7e7f-4f4b-9722-5da6f9398e53.png)
 
 ## Table of contents
 * [General Info](#general-info)
-* [Topics Covered](#topics-covered)
+* [MongoDB](#mongodb)
+* [Express.js](#express)
+* [React.js](#react)
+* [Node.js](#node)
 * [Mini Projects](#mini-projects)
 * [References](#references)
 
