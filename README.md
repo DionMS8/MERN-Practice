@@ -28,8 +28,3 @@ This repo documents my journey to mastering the MERN stack. MERN Stack is a Java
 - Creating and Manipulating Documents
 
 
-## Express.js
-
-## React.js
-
-## Node.js
